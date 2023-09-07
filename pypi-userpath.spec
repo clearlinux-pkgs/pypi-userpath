@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-userpath
-Version  : 1.9.0
-Release  : 11
-URL      : https://files.pythonhosted.org/packages/f6/2f/7669aa1664b608d908dd2fe905c2e5d1adcc90260c1690721b985a18ccc5/userpath-1.9.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/f6/2f/7669aa1664b608d908dd2fe905c2e5d1adcc90260c1690721b985a18ccc5/userpath-1.9.0.tar.gz
+Version  : 1.9.1
+Release  : 12
+URL      : https://files.pythonhosted.org/packages/4d/13/b8c47191994abd86cbdb256146dbd7bbabcaaa991984b720f68ccc857bfc/userpath-1.9.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/4d/13/b8c47191994abd86cbdb256146dbd7bbabcaaa991984b720f68ccc857bfc/userpath-1.9.1.tar.gz
 Summary  : Cross-platform tool for adding locations to the user PATH
 Group    : Development/Tools
 License  : MIT
@@ -72,10 +72,10 @@ python3 components for the pypi-userpath package.
 
 
 %prep
-%setup -q -n userpath-1.9.0
-cd %{_builddir}/userpath-1.9.0
+%setup -q -n userpath-1.9.1
+cd %{_builddir}/userpath-1.9.1
 pushd ..
-cp -a userpath-1.9.0 buildavx2
+cp -a userpath-1.9.1 buildavx2
 popd
 
 %build
@@ -83,7 +83,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1689694885
+export SOURCE_DATE_EPOCH=1694101818
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

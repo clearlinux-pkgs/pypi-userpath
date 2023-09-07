@@ -1,5 +1,5 @@
 PKG_NAME := pypi-userpath
-URL = https://files.pythonhosted.org/packages/f6/2f/7669aa1664b608d908dd2fe905c2e5d1adcc90260c1690721b985a18ccc5/userpath-1.9.0.tar.gz
+URL = https://files.pythonhosted.org/packages/4d/13/b8c47191994abd86cbdb256146dbd7bbabcaaa991984b720f68ccc857bfc/userpath-1.9.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
