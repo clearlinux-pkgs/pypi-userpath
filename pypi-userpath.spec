@@ -5,7 +5,7 @@
 #
 Name     : pypi-userpath
 Version  : 1.9.1
-Release  : 13
+Release  : 14
 URL      : https://files.pythonhosted.org/packages/4d/13/b8c47191994abd86cbdb256146dbd7bbabcaaa991984b720f68ccc857bfc/userpath-1.9.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/4d/13/b8c47191994abd86cbdb256146dbd7bbabcaaa991984b720f68ccc857bfc/userpath-1.9.1.tar.gz
 Summary  : Cross-platform tool for adding locations to the user PATH
